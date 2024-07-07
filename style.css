@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 98vw;
+}
+header{
+    height: 11vh;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    display: flex;
+    
+}
+header>img{
+    height: 51px;
+    width: 175px;
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
+.required{
+    padding-left: 200px;
+    padding-top: 15px;
+}
+.fa-location-dot{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+.required>input{
+    width: 230px;
+    height: 45px;
+    border-radius: 7px;
+    padding-left: 30px;
+    border: 1px solid #eeeeee;
+}
+.fa-chevron-down{
+    position: absolute;
+    padding-left: 203px;
+    padding-top: 12px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+.user{
+    padding-left: 200px;
+    padding-top: 25px;
+}
+.fa-cart-shopping{
+    padding-right: 30px;
+}
+
+/* section part*/
+.container{
+    display: flex;
+    height: 89vh;
+    width: 98vw;
+}
+.right{
+    height: 100%;
+    width: 50vw;
+}
+.left{
+    height: 100%;
+    width: 50vw;
+}
+h1{
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.service{
+    border: 2px solid #eeeeee;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 81%;
+    height: 430px;
+    border-radius: 10px;
+}
+h2{
+    color: #645454;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.l1{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.s1{
+    background-color: #f5f5f5;
+    width: 150px;
+    height: 78px;   
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.s1>p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.l2{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.l3{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.s2{
+    background-color: #f5f5f5;
+    width: 230px;
+    height: 78px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.s2>img{
+    padding-left: 55px;
+}
+.s2>p{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.left img{
+    width: 500px;
+    height: 600px;
+    padding-top: 58px;
+    padding-left: 40px;
+}
+
+.info{
+    display:flex;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.rating{
+    display: flex;
+
+}
+.fa-star{
+    width: 40px;
+    font-size: 30px;
+}
+.fa-users-line{
+    font-size: 30px;
+    width: 50px;
+}
+.user2{
+    padding-left: 100px;
+    display: flex;
+    
+}
